@@ -1,0 +1,86 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-flow: inherit;
+  justify-content: space-between;
+  border: 5px solid gray;
+  border-radius: 10px;
+  background-color: azure;
+}
+
+.wrapper-top,
+.wrapper-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.wrapper-middle {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#cube {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  position: relative;
+}
+
+#cube input {
+  position: absolute;
+  top: 50%;
+  left: 101%;
+}
+
+#cube #result-color {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+.result-wrapper {
+  padding-bottom: 20px;
+}
+
+.total-result {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+#btn {
+  margin-right: 20px;
+  border: none;
+  background-color: azure;
+  color: gray;
+}
+
+#btn:hover {
+  border: 1px solid black;
+  background-color: rgb(73, 213, 213);
+  color: black;
+}

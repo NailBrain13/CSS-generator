@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Generator</title>
+  </head>
+  <body>
+    <h1>CSS Generator</h1>
+    <div class="main-wrapper">
+      <div class="wrapper">
+        <h2>borderRadius</h2>
+        <div class="wrapper-top">
+          <div class="top-left">
+            <input
+              class="input"
+              type="range"
+              name=""
+              id="top-left-range"
+              min="0"
+              max="100"
+              value="0"
+            />
+            <div class="result" id="result-top-left-range">0</div>
+          </div>
+          <div class="top-right">
+            <input
+              class="input"
+              type="range"
+              name=""
+              id="top-right-range"
+              min="0"
+              max="100"
+              value="0"
+            />
+            <div class="result" id="result-top-right-range">0</div>
+          </div>
+        </div>
+        <div class="wrapper-middle">
+          <div id="cube">
+            <input
+              class="input"
+              type="text"
+              name=""
+              id="cube-color-range"
+              placeholder="color in hex"
+              minlength="3"
+              maxlength="6"
+              pattern="[0-9]{3,6}"
+            />
+            <div id="result-color"></div>
+          </div>
+        </div>
+        <div class="wrapper-bottom">
+          <div class="bottom-left">
+            <input
+              class="input"
+              type="range"
+              name=""
+              id="bottom-left-range"
+              min="0"
+              max="100"
+              value="0"
+            />
+            <div class="result" id="result-bottom-left-range">0</div>
+          </div>
+          <div class="bottom-right">
+            <input
+              class="input"
+              type="range"
+              name=""
+              id="bottom-right-range"
+              min="0"
+              max="100"
+              value="0"
+            />
+            <div class="result" id="result-bottom-right-range">0</div>
+          </div>
+        </div>
+      </div>
+      <div class="total-result">
+        <button id="btn">Вычеслить</button>
+        <span>border-radius:</span>
+        <span id="total-result"></span>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
